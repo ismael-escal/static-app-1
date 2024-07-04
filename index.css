@@ -1,0 +1,84 @@
+/* CSS Reset */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e8faea;
+}
+
+.navbar {
+    background-color: #adf7c1;
+}
+
+.navbar .navbar-brand, .navbar .nav-link {
+    color: #011207;
+}
+
+.navbar-toggler {
+	border-color: #011207;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%280, 0, 0, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar .nav-link:hover {
+    color: #005f45;
+}
+
+.hero {
+    background: url('./images/pexels-garrettmorrow-682933.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    max-width: 100%;
+    max-height: 1200px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.carousel-item img {
+    display: block;
+    max-width: 100%;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.card-section-title{
+	font-family: 'Roboto', sans-serif;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-img-top {
+    flex: 1 0 auto;
+    width: 100%;
+    object-fit: contain;
+}
+
+.card-body {
+	background-color: #adf7c1;
+	flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.footer {
+    background-color: #adf7c1;
+    color: #011207;
+    text-align: center;
+}
